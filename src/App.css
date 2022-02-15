@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+.container{
+  display: flex;
+    background-color: black;
+    /* align-items: center; */
+    justify-content: center;
+    height:800px;
+    width: 100%;
+ 
+}
+.insideConatiner{
+  background-color:white;
+  border: 5px solid;
+  border-radius:20px;
+  width:640px;
+  height: 250px;
+
+}
+.box{
+ margin:20px;  
+ flex-direction: column;
+}
+.input{
+  width: 590px;
+}
+.btn{
+  margin-top: 20px;
+  width: 100px;
+  height: 35px;
+  background-color: #4b0b57;
+  color: white;
+}
+.insideConatiner1{
+  background-color:white;
+  margin-top:50px ;
+  border: 5px solid;
+  border-radius:20px;
+  width:640px;
+  /* height: 250px; */
+
+}
+.rectangularBox{
+  width: 620px;
+  height: 40px;
+  border-radius: 20px;
+}
+html{
+  font-family: sans-serif;
+  background: #1f1f1f;
+}
+.input{
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+.input label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+
+}
+.input input{
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px solid white;
+}
+
+
+
+
+
+
